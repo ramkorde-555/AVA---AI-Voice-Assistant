@@ -1,0 +1,3 @@
+The assistant is cuurently configured for a female voice.
+There are many voices supported by Bark TTS, the comprehensive list can be found here https://suno-ai.notion.site/8b8e8749ed514b0cbf3f699013548683?v=bc67cff786b04b50b3ceb756fd05f68c
+To use a different voice, change the variable 'SPEAKER' to your preferred voice from the library in the function 'audio_response' in the notebook.
