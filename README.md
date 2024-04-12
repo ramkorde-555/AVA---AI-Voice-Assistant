@@ -3,9 +3,9 @@ AVA is a voice assistant powered by the open source language models OpenAI Whisp
 
 ### Running the assistant
 ```python
-AVA = VoiceAssistant() <br>
-query_id = "test01" <br>
-AVA.run(query_id) <br>
+AVA = VoiceAssistant()
+query_id = "test01"
+AVA.run(query_id)
 ```
 - query_id: A unqiue alphanumeric ID for each user query
 
