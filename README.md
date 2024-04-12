@@ -2,11 +2,11 @@
 AVA is a voice assistant powered by the open source language models OpenAI Whisper, Qwen Chat and Bark TTS.
 
 ### Running the assistant
-`
-AVA = VoiceAssistant()
-query_id = "test01"
-AVA.run(query_id)
-`
+```python
+AVA = VoiceAssistant() <br>
+query_id = "test01" <br>
+AVA.run(query_id) <br>
+```
 - query_id: A unqiue alphanumeric ID for each user query
 
 The instance VoiceAssistant() can be intialized with optional 'preload' parameter.
